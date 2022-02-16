@@ -27,7 +27,7 @@
                 alert('Cannot be blank');
                 return;
             };
-            addData('You: ' + userInput);
+            addData(userInput, true);
             userInputElement.value = '';
 
             setTimeout(() => {
@@ -38,7 +38,7 @@
                     user_input: userInput
                 },
                 success: (res) => {
-                    addData('Elon Musk: ' + res.chatbot_response);
+                    addData(res.chatbot_response, false);
                 },
                 error: (err) => {
                     alert(err);
@@ -47,9 +47,16 @@
             }, 500);
         }
 
-        const addData = (input) => {
-            dataLogDisplay.appendChild(document.createElement('div')).innerHTML = input;
-            dataLogDisplay.scrollTop = dataLogDisplay.scrollHeight;
+        const addData = (input, isYou) => {
+            const msgContainer = document.createElement('div');
+            const newMsg = document.createElement('span');
+            newMsg.innerHTML = input;
+            newMsg.className = 'bubble';
+            if (isYou) msgContainer.className = 'your-msg';
+            else msgContainer.className = 'elon-musk-msg';
+            msgContainer.append(newMsg);
+            dataLogDisplay.appendChild(msgContainer);
+            dataLogDisplay.scrollTop = dataLogDisplay.scrollHeight - dataLogDisplay.clientHeight;
         }
 
     </script>
