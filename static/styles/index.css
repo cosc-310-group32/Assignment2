@@ -10,7 +10,7 @@
     width: 30rem;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     margin: auto;
     background-color: beige;
     padding: .5rem;
