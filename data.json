@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "question": "What's your name?",
+            "answer": "Elon Musk"
+        },
+        {
+            "question": "What's your favorite car?",
+            "answer": "Tesla"
+        },
+        {
+            "question": "What's your favorite rocket?",
+            "answer": "SpaceX's rockets"
+        },
+        {
+            "question": "What's your favorite coin?",
+            "answer": "Dogecoin"
+        },
+        {
+            "question": "Hello",
+            "answer": "Hello"
+        }
+    ]
+}
