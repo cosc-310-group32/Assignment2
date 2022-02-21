@@ -1,24 +1,24 @@
 {
     "items": [
         {
-            "question": "What's your name?",
+            "keywords": ["your name", "name"],
             "answer": "Elon Musk"
         },
         {
-            "question": "What's your favorite car?",
+            "keywords": ["car", "cars", "vehicle", "vehicles", "transportation"],
             "answer": "Tesla"
         },
         {
-            "question": "What's your favorite rocket?",
-            "answer": "SpaceX's rockets"
+            "keywords": ["rocket", "rockets", "space", "mars"],
+            "answer": "Space X"
         },
         {
-            "question": "What's your favorite coin?",
+            "keywords": ["coin", "favorite", "coins"],
             "answer": "Dogecoin"
         },
         {
-            "question": "Hello",
-            "answer": "Hello"
+            "keywords": ["hi", "hello", "hey"],
+            "answer": "Hello!"
         }
     ]
 }
