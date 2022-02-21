@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# Cteate simple chatbot with flask
+
+
+>>>>>>> 5f44a0c88910d6f8ed6474f0abeacfca4c7c0a0f
 from flask import Flask, request, render_template, jsonify
 import json
 import os
@@ -34,7 +40,6 @@ def chat_bot_response(user_input: str) -> str:
                 "answer": item["answer"]
             }
     
-    print(max_item)
     if max_item["value"] == 0:
         return "Sorry, I don't understand what you mean. Can you ask another question?"
     return max_item["answer"]
