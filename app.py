@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-=======
-# Cteate simple chatbot with flask
-
-
->>>>>>> 5f44a0c88910d6f8ed6474f0abeacfca4c7c0a0f
 from flask import Flask, request, render_template, jsonify
 import json
 import os
