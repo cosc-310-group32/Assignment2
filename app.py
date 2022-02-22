@@ -1,6 +1,3 @@
-# Cteate simple chatbot with flask
-
-
 from flask import Flask, request, render_template, jsonify
 import json
 import os
@@ -21,10 +18,25 @@ def chat():
 def chat_bot_response(user_input: str) -> str:
     with open(os.path.join(os.path.dirname(__file__), "data.json"), "r") as f:
         data = json.load(f)
+    
+    max_item = {
+        "value": 0,
+        "answer": None
+    }
     for item in data["items"]:
-        if item["question"] == user_input:
-            return item["answer"]
-    return "Sorry, I don't understand what you mean"
+        cnt = 0
+        for keyword in item["keywords"]:
+            if keyword in user_input.lower():
+                cnt += 1
+        if cnt > max_item["value"]:
+            max_item = {
+                "value": cnt,
+                "answer": item["answer"]
+            }
+    
+    if max_item["value"] == 0:
+        return "Sorry, I don't understand what you mean. Can you ask another question?"
+    return max_item["answer"]
 
 if __name__ == "__main__":
     app.run(debug=True)
