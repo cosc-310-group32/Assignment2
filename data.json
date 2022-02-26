@@ -65,19 +65,19 @@
             "answer": "I drive Tesla Model S the most."
         },
         {
-            "keywords": ["Tesla models"],
+            "keywords": ["tesla models"],
             "answer": "The Tesla models are Model S, Model 3, Model X, and Model Y. SEXY!"
         },
         {
-            "keywords": ["Tesla colour", "Tesla color"],
+            "keywords": ["tesla colour", "tesla color"],
             "answer": "Deep Crimson."
         },
         {
-            "keywords": ["popular Tesla colour", "popular Tesla color"],
+            "keywords": ["popular tesla colour", "popular tesla color"],
             "answer": "Pearl White."
         },
         {
-            "keywords": ["Cybertruck"],
+            "keywords": ["cybertruck"],
             "answer": "It will be the first electirc pickup truck on the market."
         },
         {
@@ -89,11 +89,11 @@
             "answer": "Tesla Model 3."
         },
         {
-            "keywords": ["SpaceX"],
+            "keywords": ["spacex"],
             "answer": "SpaceX designs, manufactures, and launches the world's most advanced rockets and spacecraft."
         },
         {
-            "keywords": ["NASA"],
+            "keywords": ["nasa"],
             "answer": "We work together."
         },
         {
@@ -101,11 +101,11 @@
             "answer": "No, Teslas are intended for use with a fully attentive driver. The currently enabled features do not make the vehicle autonomous."
         },
         {
-            "keywords": ["Boring Company"],
+            "keywords": ["boring company"],
             "answer": "It exists and is an infrastructure and tunnel construction services company."
         },
         {
-            "keywords": ["Neuralink"],
+            "keywords": ["neuralink"],
             "answer": "The goal would be to enable people with paralysis to directly use their neural activity to operate computers and mobile devices with speed and ease."
         },
         {
