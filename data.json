@@ -29,6 +29,14 @@
             "answer": "Hello!"
         },
         {
+            "keywords": ["thank you"],
+            "answer": "Thanks!"
+        },
+        {
+            "keywords": ["goodbye"],
+            "answer": "Bye!"
+        },
+        {
             "keywords": ["companies", "company"],
             "answer": "Tesla Motors, SpaceX, PayPal, Zip2 Corporation, SolarCity, The Boring Company, Hyperloop, OpenAI, and Neuralink"
         },
