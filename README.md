@@ -43,7 +43,7 @@ Click on the link that says `Running on http://127.0.0.1:abcd/`, it will take yo
     .
     ├── app.py                    # Code for the Python back-end - it handles requests to the bot
     ├── data.json                 # Answers to the predefined topics Elon Musk bot can answer
-    |-- template                  # Contains the front-end logic for the user interace
+    ├── template                  # Contains the front-end logic for the user interace
     └── README.md                 # This file!
 ```
 
