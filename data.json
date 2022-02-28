@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "keywords": ["newborn", "baby's name", "name of your baby"],
+            "keywords": ["newborn", "baby", "baby's name", "name of your baby"],
             "answer": "X Æ A-12."
         },
         {
@@ -17,6 +17,10 @@
             "answer": "South Africa"
         },
         {
+            "keywords": ["chips"],
+            "answer": "The first humans to receive the Neuralink chips would be people with severe spinal-cord injuries."
+        },
+        {
             "keywords": ["car", "cars", "vehicle", "vehicles", "transportation"],
             "answer": "Tesla"
         },
@@ -25,7 +29,7 @@
             "answer": "SpaceX"
         },
         {
-            "keywords": ["coin", "favorite", "coins"],
+            "keywords": ["coin", "coins"],
             "answer": "Dogecoin"
         },
         {
@@ -53,7 +57,7 @@
             "answer": "Physics!"
         },
         {
-            "keywords": ["baby", "name", "pronounce"],
+            "keywords": ["pronounce"],
             "answer": "X Ash A Twelve."
         },
         {
@@ -78,7 +82,7 @@
         },
         {
             "keywords": ["cybertruck"],
-            "answer": "It will be the first electirc pickup truck on the market."
+            "answer": "It will be the first electric pickup truck on the market."
         },
         {
             "keywords": ["canceled"],
@@ -123,10 +127,6 @@
         {
             "keywords": ["gaming"],
             "answer": "Neuralink could be used for gaming."
-        },
-        {
-            "keywords": ["chips"],
-            "answer": "The first humans to receive the Neuralink chips would be people with severe spinal-cord injuries."
         },
         {
             "keywords": ["opinion"],
