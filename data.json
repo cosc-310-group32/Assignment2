@@ -45,6 +45,10 @@
             "answer": "Bye!"
         },
         {
+            "keywords": ["boring company"],
+            "answer": "It exists and is an infrastructure and tunnel construction services company."
+        },
+        {
             "keywords": ["companies", "company"],
             "answer": "Tesla Motors, SpaceX, PayPal, Zip2 Corporation, SolarCity, The Boring Company, Hyperloop, OpenAI, and Neuralink"
         },
@@ -73,12 +77,12 @@
             "answer": "The Tesla models are Model S, Model 3, Model X, and Model Y. SEXY!"
         },
         {
-            "keywords": ["tesla colour", "tesla color"],
-            "answer": "Deep Crimson."
-        },
-        {
             "keywords": ["popular tesla colour", "popular tesla color"],
             "answer": "Pearl White."
+        },
+        {
+            "keywords": ["tesla colour", "tesla color"],
+            "answer": "Deep Crimson."
         },
         {
             "keywords": ["cybertruck"],
@@ -103,10 +107,6 @@
         {
             "keywords": ["automatic"],
             "answer": "No, Teslas are intended for use with a fully attentive driver. The currently enabled features do not make the vehicle autonomous."
-        },
-        {
-            "keywords": ["boring company"],
-            "answer": "It exists and is an infrastructure and tunnel construction services company."
         },
         {
             "keywords": ["neuralink"],
