@@ -1,6 +1,10 @@
 {
     "items": [
         {
+            "keywords": ["newborn", "baby's name", "name of your baby"],
+            "answer": "X Æ A-12."
+        },
+        {
             "keywords": ["your name", "name"],
             "answer": "Elon Musk"
         },
@@ -9,7 +13,7 @@
             "answer": "Turning fifty-one this year."
         },
         {
-            "keywords": ["country of birth", "born", "place of birth"],
+            "keywords": ["country of birth", "born", "place of birth", "birth", "country", "place"],
             "answer": "South Africa"
         },
         {
@@ -29,11 +33,11 @@
             "answer": "Hello!"
         },
         {
-            "keywords": ["thank you"],
+            "keywords": ["thank you", "thanks"],
             "answer": "Thanks!"
         },
         {
-            "keywords": ["goodbye"],
+            "keywords": ["goodbye", "see you"],
             "answer": "Bye!"
         },
         {
@@ -49,11 +53,7 @@
             "answer": "Physics!"
         },
         {
-            "keywords": ["newborn", "baby"],
-            "answer": "X Æ A-12."
-        },
-        {
-            "keywords": ["pronounce"],
+            "keywords": ["baby", "name", "pronounce"],
             "answer": "X Ash A Twelve."
         },
         {
