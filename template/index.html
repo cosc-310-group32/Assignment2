@@ -11,10 +11,10 @@
     <div class="chat-box">
         <div id="data-log"></div>
         <span class="divider"></span>
-        <div class="send-chat">
+        <form id="send-chat" class="send-chat">
             <input class="user-input" name="user-input" type="text" placeholder="Type a message" >
             <button class="send-btn" onclick="sendMessage()">Send</button>
-        </div>
+        </form>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
@@ -59,6 +59,9 @@
             dataLogDisplay.scrollTop = dataLogDisplay.scrollHeight - dataLogDisplay.clientHeight;
         }
 
+    document.getElementById('send-chat').addEventListener('submit', (e) => {
+        e.preventDefault();
+    });
     </script>
 </body>
 </html>
