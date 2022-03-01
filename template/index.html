@@ -16,13 +16,17 @@
             <button class="send-btn" onclick="sendMessage()">Send</button>
         </form>
     </div>
+    <!-- Uses ajax to send requests -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
+        // this is what we see as the dialog
         const dataLogDisplay = document.getElementById('data-log');
 
+        // this function is used to send the message to the server
         const sendMessage = () => {
             const userInputElement = document.querySelector('input[name="user-input"]');
             const userInput = userInputElement.value;
+            // prevent the blank case
             if (userInput === '') {
                 alert('Cannot be blank');
                 return;
@@ -46,7 +50,10 @@
             })
             }, 500);
         }
-
+        
+        // this is the function for adding new bubbles into the dialog
+        // the bubbles will have different positions and color, depending on the sender
+        // then the conversation will scroll to the last message
         const addData = (input, isYou) => {
             const msgContainer = document.createElement('div');
             const newMsg = document.createElement('span');
