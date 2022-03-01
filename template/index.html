@@ -16,7 +16,7 @@
             <button class="send-btn" onclick="sendMessage()">Send</button>
         </form>
     </div>
-    <!-- Will use ajax to send requests -->
+    <!-- Uses ajax to send requests -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
         // this is what we see as the dialog
@@ -51,8 +51,8 @@
             }, 500);
         }
         
-        // this is the function to add new bubble into the dialog
-        // the bubble will have different position and color, depends on who sent it
+        // this is the function for adding new bubbles into the dialog
+        // the bubbles will have different positions and color, depending on the sender
         // then the conversation will scroll to the last message
         const addData = (input, isYou) => {
             const msgContainer = document.createElement('div');

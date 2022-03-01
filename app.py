@@ -9,7 +9,7 @@ app = Flask(__name__, template_folder='template')
 def index():
     return render_template('index.html')
 
-# When the user press enter, the message in the chatbox will be sent to the server through a POST request to /api/chat
+# When the user presses enter, the message in the chatbox will be sent to the server through a POST request to /api/chat
 @app.route("/api/chat", methods=["POST"])
 def chat():
     user_input = request.form["user_input"]
@@ -45,7 +45,7 @@ def chat_bot_response(user_input: str) -> str:
     if max_item["value"] == 0:
         return "Sorry, I don't understand what you mean. Can you ask another question?"
     
-    # return the answer corresponding to the keywords (has the maximum count)
+    # return the answer corresponding to the keywords (having the maximum count)
     return max_item["answer"]
 
 if __name__ == "__main__":
